@@ -6,6 +6,7 @@ import  Timeline  from './components/Timeline.js';
 import Map from "./components/MapPanel.js";
 import TablePanel from "./components/TablePanel.js";
 import Tracker from "./components/Tracker.js";
+import Notes from "./components/Notes.js";
 
 //import Timeline from "./Timeline";
 //import AddTLI from "./Timeline";
@@ -28,6 +29,7 @@ class App extends React.Component {
             <Tab>Timeline</Tab>
             <Tab>Tables</Tab>
             <Tab>Initiative</Tab>
+            <Tab>Notes</Tab>
           </TabList>
           
           <TabPanel>
@@ -54,7 +56,11 @@ class App extends React.Component {
             </div>
           </TabPanel>
           
-          
+          <TabPanel>
+            <div>
+              <Notes/>
+            </div>
+          </TabPanel>
         
         </Tabs>
         </header>
