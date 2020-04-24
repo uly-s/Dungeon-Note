@@ -20,6 +20,17 @@ as a single web page in the form of a javascript object / react component servin
     
   # 6. Future Direction
   ## A
-  1. the biggest feature left unimplemented was the full range of behaviors we wanted out out of the interactive tables, the individual things we wanted it to do were straightforward but getting it to do all of them at once is apparently tricky enough that among hundreds of thousands of npm packages the only ones that would do everything we wanted without a lot of work were propietary and cost money. Therefore I consider the full behavior out of the scope of the project  
+  1. the biggest feature left unimplemented was the full range of behaviors we wanted out out of the interactive tables, the individual things we wanted it to do were straightforward but getting it to do all of them at once is apparently tricky enough that among hundreds of thousands of npm packages the only ones that would do everything we wanted without a lot of work were propietary and cost money. Therefore I consider the full behavior out of the scope of the project but what we did manage to get it to do was still pretty good.
   
-    
+ 2. We also did not get around to the campaign selection page as it seemed that it would require making the app multi page and it was just not worth the added complexity, instead we are adding campaign selection as an additional tab. The settings tab can be added at a later date as well, we felt it was best to prioritize the main features.
+ 
+ 3. Currently the data of each component is disjoint with the others but it is designed in such a way as to allow them to be integrated with / depend on each other for a very rich user experience. This will almost certainly require the addition of a backend with a database
+ 
+ 4. the dice roller has been purposefully left unimplemented as to be done later when more attention can be given to it as generating dice rolls for tabletop games is more nuanced than you would initially expect, bad implementation can lead to lopsided results or outright chaos 
+
+## B
+The ideal next move would be setting up a widget allowing a user to populate the app with their campaign data instead of placeholder data, when that is a stable reliable process more features can be added and overall user experience enhanced
+
+
+## C
+We intend to keep developing it as it is a fun project to work on and could potentially be actually useful, it also serves as very practical web development experience
