@@ -1,0 +1,16 @@
+table {
+  border: 1px solid black;
+  table-layout: fixed;
+  width: 200px;
+}
+
+th-name {
+  border: 1px solid black;
+  width: 80px;
+  overflow: hidden;
+}
+th-num {
+  border: 1px solid black;
+  width: 20px;
+  overflow: hidden;
+}
