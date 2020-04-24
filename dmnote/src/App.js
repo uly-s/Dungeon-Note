@@ -8,8 +8,7 @@ import TablePanel from "./components/TablePanel.js";
 import Tracker from "./components/Tracker.js";
 import Notes from "./components/Notes.js";
 
-//import Timeline from "./Timeline";
-//import AddTLI from "./Timeline";
+
 
 class App extends React.Component {
   constructor(props)

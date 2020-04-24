@@ -1,7 +1,4 @@
 import React from "react";
-import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
-import { ToggleButton } from "react-bootstrap";
-import {} from 'react-annotation';
 import Map from './Map.js'
 
 

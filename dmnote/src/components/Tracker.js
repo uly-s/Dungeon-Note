@@ -1,8 +1,6 @@
 import React from 'react';
 import './Tracker.css';
-import Example from './ButtonPanel.js';
 import { Button } from 'reactstrap';
-import TextArea from './TextWindow.js';
 import Table from './Table.js';
 
 var rolls = ['booga booga boo\n'];
