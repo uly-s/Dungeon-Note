@@ -97,7 +97,7 @@ class TablePanel extends Component {
 
   handleChange(index, dataType, value) {
     const newState = this.state.materials.map((item, i) => {
-      if (i == index) {
+      if (i === index) {
         return {...item, [dataType]: value};
       }
       return item;
