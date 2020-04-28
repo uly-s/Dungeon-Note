@@ -1,0 +1,71 @@
+
+.Tracker-body {
+  background-color: #282c34;
+  min-width: 95vw;
+  align-self: auto;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.col-1 {width: 35.00%;}
+.col-2 {width: 5.00%;}
+.col-3 {width: 20.00%;}
+.col-4 {width: 35.00%;}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+  min-height: 80vh;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.table-t {
+  
+  table-layout: fixed;
+  width: 30vw;
+}
+
+.th-name {
+  
+  width: 96px;
+
+}
+.th-num {
+  
+  width: 48px;
+
+}
+
+.td-name {
+  
+  width: 96px;
+  overflow: hidden;
+}
+
+.td-num {
+  
+  width: 48px;
+  overflow: hidden;
+}
+
+
+
+.field {
+  color: #dddddd;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255,255,255,0.3);
+}

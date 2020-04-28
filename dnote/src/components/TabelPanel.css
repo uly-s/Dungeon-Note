@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.col-t-1 {width: 10.00%;}
+.col-t-2 {width: 80.00%;}
+.col-t-3 {width: 10.00%;}
+
+
+.psu-row-add {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+}
+
+.psu-row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.psu-row-sel {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+
+
+
+[class*="col-t-"] {
+  float: left;
+  padding: 10px;
+  border: 1px solid #dddddd;
+ display: ;
+  min-height: 80vh;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
