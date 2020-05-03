@@ -1,7 +1,9 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
+
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import './react-tabs.css';
+import './styles/react-tabs.css';
+
 import  Timeline  from './components/Timeline.js';
 import Map from "./components/MapPanel.js";
 import TablePanel from "./components/TablePanel.js";
@@ -33,9 +35,6 @@ class App extends React.Component {
             <Tab>Notes</Tab>
           </TabList>
           
-
-        
-        
         </header>
 
         <body className="App-body">

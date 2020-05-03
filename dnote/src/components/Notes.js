@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
-import "./Notes.css"
+import "./styles/Notes.css"
 import Select from 'react-select';
 
 
