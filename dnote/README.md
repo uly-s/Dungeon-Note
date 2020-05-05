@@ -1,68 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Dungeon-Note
+## Base Dependencies
+  0. VSCode
+  1. [Node.js](https://nodejs.org/en/)
+  2. git
 
-## Available Scripts
+## Build
+  - With node.js and npm installed: `git clone https://github.com/ulysses-io/Dungeon-Note` from git-bash
+  - from cmd prompt navigate to `Dungeon-Note/dnote`
+  - in cmd prompt `npm install`
+  - finnally run `npm start` with a web browser open and `localhost:3000` should appear
+  
+## Use
+  - the top of the page has a tab bar with 'Main, Map, Timeline, etc'
+  - each tab when selected opens the appropriate component
+    - `Main`: just a stylish landing page
+    - `Map`: largely useless currently but shows the svg rendering / interactive annotation functionality
+    - `Timeline`: one can add a new item to the timeline with the text input and submit field at the top
+    - `Table`: far from full functionality but displays the ability to select and load different tables dynamically
+      -> data is persistent in the data structure but does not render on the page when selected...
+    - `Initiative`: A table is on the left for entering entities, there is also a dice roller in the form of six buttons to the right                         that add dice to the roller (text input field) and can then be added to the dice feed on the right
+    - `Notes`: this is definitely the most complex component so far, there is a pretty sophisticated text editor and a hacked together                  "file directory" on the left, the top contains 3 different folders selectable from a select component, selecting one                    will display the "files" it contains in another select component, selecting one of the items will load it into the                      text editor, it will also save whatever was in the text editor into the previously selected file, files can also be added                to the folder with an input text field and submit button beneath the text editor 
+                    
+# Table of Contents
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. [My first title](#my-first-title)
+2. [My second title](#my-second-title)
+## My first title
+Some text.
+## My second title
