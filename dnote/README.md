@@ -73,3 +73,4 @@
 3. entity editor in form of basic character sheets 
 4. dedicated settings page
 5. make landing page useful as campaign overview
+6. searchable reference of easily listable items like spells for quick lookup
