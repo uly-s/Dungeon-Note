@@ -1,4 +1,10 @@
-# Dungeon-Note
+# Table of Contents
+
+1. [Base Dependencies](#base-dependencies)
+2. [Build](#build)
+3. [Components](#components)
+
+
 ## Base Dependencies
   0. VSCode
   1. [Node.js](https://nodejs.org/en/)
@@ -10,7 +16,7 @@
   - in cmd prompt `npm install`
   - finnally run `npm start` with a web browser open and `localhost:3000` should appear
   
-## Use
+## Components
   - the top of the page has a tab bar with 'Main, Map, Timeline, etc'
   - each tab when selected opens the appropriate component
     - `Main`: just a stylish landing page
@@ -21,10 +27,4 @@
     - `Initiative`: A table is on the left for entering entities, there is also a dice roller in the form of six buttons to the right                         that add dice to the roller (text input field) and can then be added to the dice feed on the right
     - `Notes`: this is definitely the most complex component so far, there is a pretty sophisticated text editor and a hacked together                  "file directory" on the left, the top contains 3 different folders selectable from a select component, selecting one                    will display the "files" it contains in another select component, selecting one of the items will load it into the                      text editor, it will also save whatever was in the text editor into the previously selected file, files can also be added                to the folder with an input text field and submit button beneath the text editor 
                     
-# Table of Contents
 
-1. [My first title](#my-first-title)
-2. [My second title](#my-second-title)
-## My first title
-Some text.
-## My second title
