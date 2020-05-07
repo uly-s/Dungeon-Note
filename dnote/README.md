@@ -1,68 +1,76 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Table of Contents
 
-## Available Scripts
+1. [Base Dependencies](#base-dependencies)
+2. [Build](#build)
+3. [Components](#components)
 
-In the project directory, you can run:
 
-### `npm start`
+## Base Dependencies 
+  0. VSCode
+  1. [Node.js](https://nodejs.org/en/)
+  2. git
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`TODO: Add main packages and such`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Build
+  - With node.js and npm installed: `git clone https://github.com/ulysses-io/Dungeon-Note` from git-bash
+  - from cmd prompt navigate to `Dungeon-Note/dnote`
+  - in cmd prompt `npm install`
+  - finnally run `npm start` with a web browser open and `localhost:3000` should appear
+  
+## Components
+1. [Landing](#landing)
+2. [Map](#map)
+3. [Timeline](#timeline)
+4. [Tables](#tables)
+5. [Initiative](#initiative)
+6. [Notes](#notes)
 
-### `npm test`
+`TODO: Generally clean up code when possible, add pics for each component`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Landing
+- just a stylish landing page
+- could be used later as a login / campaign selection
 
-### `npm run build`
+### Map 
+- largely useless currently but shows the svg rendering / interactive annotation functionality
+- Wasn't able to find good easy to use image annotation components, might need to change from svg entirely
+- needs a button to upload maps but maps have to be in a format that works for the site?
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Timeline
+- one can add a new item to the timeline with the text input and submit field at the top
+- needs widgets instead of straight text
+- needs editable dates / text
+- needs ability to insert / rearrange events
+- needs to be sorted newest to oldest
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Tables
+- far from full functionality but displays the ability to select and load different tables dynamically
+- data is persistent in the data structure but does not render on the page when selected / loaded
+- probably needs a dedicated npm package for tables instead of the DIY version
+- need to ability to add tables
+- need ability to download / upload / import tables
+- long term needs integration with dice rollers, different mini components like maybe a drop down for a cell, sortability, larger text fields, maybe links to a note
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Initiative
+- A table is on the left for entering entities, there is also a dice roller in the form of six buttons to the right                         that add dice to the roller (text input field) and can then be added to the dice feed on the right
+- dice roller is unimplemented
+- no button to roll initiative, also need to sort by initiative
+- going to need ability to import players from tables as well as enemies for ease of use
+- need ability to add status modifiers 
+- need macros for dice rolls
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Notes
+- nice note taker in center, can write and save text with button at the bottom
+- save button at bottom saves that file name to selected folder on the left 
+- when you switch from a file to another it saves whatever was in the editor to the last file selected
+- "directory" is ghetto, folders and files seperated, static amount of folders, need an actual file directory
+- need dedicated save as / load buttons, can in theory be integrated with quill tool bar
+                    
+## Roadmap
+1. data integration, linking of notes and map / tables
+2. entity reference, ie import an entity into inititiative, reference in tables
+3. entity editor in form of basic character sheets 
+4. dedicated settings page
+5. make landing page useful as campaign overview
+6. searchable reference of easily listable items like spells for quick lookup
