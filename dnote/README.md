@@ -28,18 +28,18 @@
 
 `TODO: Generally clean up code when possible, add pics for each component`
 
-### Landing
+## Landing
 ![Main](https://github.com/ulysses-io/Dungeon-Note/blob/master/doc/pics/home.PNG)
 - just a stylish landing page
 - could be used later as a login / campaign selection
 
-### Map 
+## Map 
 ![Map](https://github.com/ulysses-io/Dungeon-Note/blob/master/doc/pics/map.PNG)
 - largely useless currently but shows the svg rendering / interactive annotation functionality
 - Wasn't able to find good easy to use image annotation components, might need to change from svg entirely
 - needs a button to upload maps but maps have to be in a format that works for the site?
 
-### Timeline
+## Timeline
 ![Timeline](https://github.com/ulysses-io/Dungeon-Note/blob/master/doc/pics/timeline.PNG)
 - one can add a new item to the timeline with the text input and submit field at the top
 - needs widgets instead of straight text
@@ -47,7 +47,7 @@
 - needs ability to insert / rearrange events
 - needs to be sorted newest to oldest
 
-### Tables
+## Tables
 ![Tables](https://github.com/ulysses-io/Dungeon-Note/blob/master/doc/pics/tables.PNG)
 - far from full functionality but displays the ability to select and load different tables dynamically
 - data is persistent in the data structure but does not render on the page when selected / loaded
@@ -56,7 +56,7 @@
 - need ability to download / upload / import tables
 - long term needs integration with dice rollers, different mini components like maybe a drop down for a cell, sortability, larger text fields, maybe links to a note
 
-### Initiative
+## Initiative
 ![Init](https://github.com/ulysses-io/Dungeon-Note/blob/master/doc/pics/init.PNG)
 - A table is on the left for entering entities, there is also a dice roller in the form of six buttons to the right                         that add dice to the roller (text input field) and can then be added to the dice feed on the right
 - dice roller is unimplemented
@@ -65,7 +65,7 @@
 - need ability to add status modifiers 
 - need macros for dice rolls
 
-### Notes
+## Notes
 ![Notes](https://github.com/ulysses-io/Dungeon-Note/blob/master/doc/pics/notes.PNG)
 - nice note taker in center, can write and save text with button at the bottom
 - save button at bottom saves that file name to selected folder on the left 
