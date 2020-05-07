@@ -29,6 +29,7 @@
 `TODO: Generally clean up code when possible, add pics for each component`
 
 ### Landing
+![Main](https://github.com/ulysses-io/Dungeon-Note/blob/master/doc/pics/home.PNG)
 - just a stylish landing page
 - could be used later as a login / campaign selection
 
